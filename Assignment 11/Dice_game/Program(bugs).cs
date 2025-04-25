@@ -36,8 +36,8 @@ for (int i = 0; i <= 10; i++)
 	}
 	else
 	{
-    playerPoints++;
-    rivalPoints++;
+                playerPoints++;
+                rivalPoints++;
 		Console.WriteLine("This round is a draw!");
 	}
 	Console.WriteLine($"The score is now - You : {playerPoints}. Rival : {rivalPoints}.");
